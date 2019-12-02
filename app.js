@@ -11,7 +11,7 @@ var options = {
 };
 
 // Require GithubDB
-var GithubDB = require('..').default;
+var GithubDB = require('/node_modules/github-db').default;
 // Initialize it with the options from above.
 var githubDB = new GithubDB(options);
 
